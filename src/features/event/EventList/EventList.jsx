@@ -3,7 +3,7 @@ import EventListItem from './EventListItem';
 
 class EventList extends Component {
   render() {
-    console.log(this.props)
+    //console.log(this.props)
     const { events, deleteEvent} = this.props;
     return (
       <div>

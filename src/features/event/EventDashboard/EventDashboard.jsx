@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { connect } from 'react-redux';
 import { Grid } from "semantic-ui-react";
 import EventList from "../EventList/EventList";
-import { deleteEvent } from '../eventAction';
+import { deleteEvent } from '../eventActions';
 
 const mapStateToProps = state => ({
   events: state.events
