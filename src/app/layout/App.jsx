@@ -44,3 +44,4 @@ class App extends Component {
 
 export default App;
 
+//Google maps api key: AIzaSyC26ZVKmAhuL0iEWW3bQMZYWUR46BcQB8Y

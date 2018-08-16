@@ -36,6 +36,8 @@ class EventListItem extends Component {
         </Segment>
         <Segment clearing>
           <span>{event.description}</span>
+        </Segment>
+        <Segment clearing>
           <Button onClick={deleteEvent(event.id)} as="a" color="red" floated="right" content="Delete" />
           <Button as={Link} to={`/event/${event.id}`} color="teal" floated="right" content="View" />
         </Segment>
