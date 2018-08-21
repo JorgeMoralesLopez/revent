@@ -3,7 +3,7 @@ import { List, Image } from 'semantic-ui-react';
 
 class EventListAttendee extends Component {
     render() {
-        console.log(this.props)
+        //console.log(this.props)
         const { attendee } = this.props;
         return (
             <List.Item>

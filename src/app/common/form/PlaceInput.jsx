@@ -35,6 +35,7 @@ class PlaceInput extends Component {
           options={options}
           onSelect={onSelect}
           styles={styles}
+          width={width}
         />}
 
         {touched && error && <Label basic color="red">{error}</Label>}
